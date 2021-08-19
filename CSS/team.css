@@ -1,0 +1,62 @@
+.team-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5rem 0rem 5rem 0rem;
+}
+
+.profile {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 1rem 2rem 1rem 2rem;
+}
+
+.profile-wrapper {
+    padding-left: 1.5rem;
+}
+
+.p-image {
+    padding: 0.5rem;
+    padding-left: 1rem;
+}
+
+.profile > img {
+    height: 10rem;
+}
+
+.line {
+    border-left: 1px solid black;
+    height: 700px;
+}
+
+.team-contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 4rem;
+}
+
+.team-contact > h2 {
+    color: #606060;
+    font-size: 50px;
+    padding: 1rem;
+}
+
+@media only screen and (max-width: 640px) {
+    .line {
+        display: none;
+    }
+    .team-container {
+        flex-direction: column-reverse;
+    }
+    .profile > img {
+        height: 5rem;
+    }
+    .profile-wrapper {
+        margin-right: 2rem;
+    }
+    .team-contact {
+        padding: 1rem;
+    }
+}

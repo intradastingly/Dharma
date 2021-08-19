@@ -1,0 +1,48 @@
+@font-face {
+    font-family: Ailerons;
+    src: url(../fonts/Ailerons-Typeface.otf);
+} 
+
+#masthead {
+    background-color: #606060;
+    height: 30rem;
+}
+
+.c-inner {
+    width: 19rem;
+}
+
+.c-inner > h2, p {
+   padding: 0.5rem;
+   text-align: center;
+}
+
+.c-inner > h1 {
+    color: white;
+    padding: 0.5rem;
+    text-align: center;
+    font-family: Ailerons;
+    font-size: 50px;
+    font-weight: 1;
+ }
+
+ .c-inner > h2 {
+    color: white;
+    padding: 0.5rem;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 1;
+ }
+
+ .c-inner >  p {
+    color: white;
+    padding: 0.5rem;
+    text-align: center;
+    font-size: 12px;
+ }
+
+ @media only screen and (max-width: 640px) {
+    #masthead {
+        height: 20rem;
+    }
+  }
